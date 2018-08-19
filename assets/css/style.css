@@ -1,0 +1,57 @@
+
+button, div, form, input {
+	margin: auto;
+	margin-top: 0.75em;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-image:	url('../images/giftly.png');
+}
+
+h1 {
+	letter-spacing: 15px;
+	font-size: 5em;
+	font-weight: bold;
+	color: #4aaaa5;
+	text-decoration: underline;
+	font-family: "Times New Roman", Times, serif;
+}
+
+input[type="submit"]:hover {
+	border-radius: 2em;
+    background-color: purple; 
+	-webkit-appearance: none;
+  }
+	
+ input[type="text"] {
+	background-color: #4aaaa5;
+	border-color: purple; 
+}
+
+button {
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+    background-color: #4aaaa5;
+	border-color: purple; 
+}
+
+button:hover {
+	background-color: purple; 
+}
+
+input[type="submit"]  {
+	font-weight: bold;
+	border: 1px solid purple;
+	background-color:#4aaaa5;
+	color: white;
+	width: 110px;
+	height: 70px;
+	border-radius: 1.5em;
+	transition: all 0.2s;
+	margin:0 auto;
+}
