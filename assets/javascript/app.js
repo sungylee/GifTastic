@@ -36,6 +36,7 @@ var APIKey = "dc6zaTOxFJmzC";
 
 //the user clicks on button to generate 10 images based on variable numGifs
 $(document).on('click', '.searchButton', function() {
+    $("#searches").empty();
 
     // Value of button that will be used to search
     var searchFor = $(this).attr('data-name');

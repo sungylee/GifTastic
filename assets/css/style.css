@@ -29,7 +29,16 @@ input[type="submit"]:hover {
  input[type="text"] {
 	background-color: #4aaaa5;
 	border-color: purple; 
+
 }
+
+.search-item {
+	float: left;
+	padding: 10px;
+  }
+
+
+
 
 button {
 	padding: 10px;
